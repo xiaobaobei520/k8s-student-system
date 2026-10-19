@@ -1,0 +1,46 @@
+# 工具内部记录，不入库
+.workbuddy-ai/
+
+# 系统镜像（2GB 级，不入库）
+*.iso
+
+# 虚拟机文件
+vms/
+*.vmdk
+*.vmem
+*.vmss
+*.vmsn
+*.nvram
+*.scoreboard
+*.lck/
+
+# 运行日志与临时产物
+*.log
+_img/
+dhcp.log
+
+# 搭建过程中的临时调试脚本（仅本地保留）
+ks/capture.py
+ks/check_boot.py
+ks/efi_dump.py
+ks/efi_inspect.py
+ks/extract_cfg.py
+ks/fat_find.py
+ks/inspect_iso.py
+ks/patch_efi.py
+ks/scan.py
+ks/verify_iso.py
+ks/kubeadm_init.py
+ks/isolinux.cfg
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 编辑器与系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
